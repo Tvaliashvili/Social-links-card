@@ -12,28 +12,26 @@ html {
 }
 
 body {
-  align-items: center;
-  background-color: hsl(0, 0%, 8%);
+  background-color: black;
+}
+
+.parent {
   display: flex;
   flex-direction: column;
-  height: 98%;
   justify-content: center;
-  overflow: hidden;
-  position: absolute;
-  width: 100%;
+  align-items: center;
+  min-width: 100vw;
+  min-height: 100vh;
 }
 
 .container {
   background-color: hsl(0, 0%, 12%);
   border-radius: 2rem;
-  display: inline-block;
   height: 59rem;
-  margin: auto;
   width: 32.7rem;
 }
 
 .image__container {
-  margin: 2rem 12rem 3rem 12rem;
   display: flex;
   justify-content: center;
   width: auto;
@@ -47,7 +45,7 @@ body {
 }
 
 .attribution {
-  display: inline;
+  margin-top: 1rem;
 }
 
 .footer__text {
