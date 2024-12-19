@@ -26,9 +26,10 @@ body {
 
 .container {
   background-color: hsl(0, 0%, 12%);
+  flex-shrink: 5;
   border-radius: 2rem;
   height: 59rem;
-  width: 32.7rem;
+  min-width: 32.7rem;
 }
 
 .image__container {
