@@ -39,9 +39,9 @@ body {
 
 .profile__pic {
   border-radius: 10rem;
-  height: 9rem;
+  height: 12rem;
   padding: 1.5rem 1rem 1rem 1rem;
-  width: 9rem;
+  width: 12rem;
 }
 
 .attribution {
@@ -76,6 +76,7 @@ body {
 .button__container {
   display: flex;
   flex-direction: column;
+  gap: 2rem;
   height: 30rem;
   justify-content: space-evenly;
   margin-top: 3rem;
